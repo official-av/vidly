@@ -89,3 +89,7 @@ C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\obj\Debug\vidly.cs
 C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\obj\Debug\vidly.csproj.CopyComplete
 C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\obj\Debug\vidly.dll
 C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\obj\Debug\vidly.pdb
+C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\bin\EntityFramework.dll
+C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\bin\EntityFramework.SqlServer.dll
+C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\bin\EntityFramework.xml
+C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\bin\EntityFramework.SqlServer.xml

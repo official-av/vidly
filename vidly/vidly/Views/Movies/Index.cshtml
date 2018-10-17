@@ -1,0 +1,23 @@
+﻿
+@using vidly.Models
+@model List<Movie>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Movies</h2>
+@if (Model.Count == 0)
+{
+    <text>No movies have been added yet.</text>
+}
+else
+{
+    <ul>
+        @foreach (var movie in Model)
+        {
+            <li><a href="Movies/Details/@movie.Id">@movie.Name</a></li>
+        }
+    </ul>
+}
+
