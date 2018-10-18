@@ -118,3 +118,8 @@ C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\bin\Microsoft.Owin
 C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\obj\Debug\vidly.Migrations.InitialMigration.resources
+C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\obj\Debug\vidly.csproj.GenerateResource.cache
+C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\obj\Debug\vidly.Migrations.InitialModel.resources
+C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\obj\Debug\vidly.Migrations.AddIsSubscribedToCustomer.resources
+C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\obj\Debug\vidly.Migrations.AddMembershipType.resources
