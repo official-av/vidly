@@ -11,6 +11,7 @@ namespace vidly.Models
     {
         public int Id { get; set; }
 
+        //[Required(ErrorMessage = "Hello world!")] for custom error message
         [Required]
         [StringLength(255)]
         public string Name { get; set; }
@@ -22,6 +23,7 @@ namespace vidly.Models
         [Display(Name = "Membership Type")]
         public byte MembershipTypeId { get; set; }
 
+        [Min18Validation]
         [Display(Name = "Date of Birth")]
         public DateTime BirthDate { get; set; }
     }
