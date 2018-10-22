@@ -15,7 +15,8 @@ namespace vidly.Migrations
                         Name = c.String(),
                     })
                 .PrimaryKey(t => t.Id);
-            
+            Sql(@"INSERT INTO Customers (Name,IsSubscribedToNewsLetter,MembershipTypeId) Values ('Post Malone',0,2)");
+            Sql(@"INSERT INTO Customers (Name,IsSubscribedToNewsLetter,MembershipTypeId) Values ('Anmol Vashistha',1,4)");
         }
         
         public override void Down()

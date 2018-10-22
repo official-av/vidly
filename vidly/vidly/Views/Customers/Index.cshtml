@@ -14,7 +14,7 @@ else
     <ul>
         @foreach (var cust in Model)
         {
-            <li><a href="/Customers/Details/@cust.Id">@cust.Name</a></li>
+            <li><a href="/Customers/Edit/@cust.Id">@cust.Name : @cust.MembershipType.Name</a></li>
         }
     </ul>
 }

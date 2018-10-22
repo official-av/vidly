@@ -218,15 +218,41 @@
     <Compile Include="Migrations\201810180650469_AddMembershipType.Designer.cs">
       <DependentUpon>201810180650469_AddMembershipType.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810180721575_PopulateMembershipTypes.cs" />
+    <Compile Include="Migrations\201810180721575_PopulateMembershipTypes.Designer.cs">
+      <DependentUpon>201810180721575_PopulateMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810180729426_ApplyAnnotationsToCustomerName.cs" />
+    <Compile Include="Migrations\201810180729426_ApplyAnnotationsToCustomerName.Designer.cs">
+      <DependentUpon>201810180729426_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810181021084_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\201810181021084_AddNameToMembershipType.Designer.cs">
+      <DependentUpon>201810181021084_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810181025135_AddBDtoCustomer.cs" />
+    <Compile Include="Migrations\201810181025135_AddBDtoCustomer.Designer.cs">
+      <DependentUpon>201810181025135_AddBDtoCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810181140014_AddMoviesToDbModel.cs" />
+    <Compile Include="Migrations\201810181140014_AddMoviesToDbModel.Designer.cs">
+      <DependentUpon>201810181140014_AddMoviesToDbModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810181152393_AddGenreAndFieldsForMovie.cs" />
+    <Compile Include="Migrations\201810181152393_AddGenreAndFieldsForMovie.Designer.cs">
+      <DependentUpon>201810181152393_AddGenreAndFieldsForMovie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\CustomerFormViewModel.cs" />
     <Compile Include="ViewModels\RandomMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -293,6 +319,7 @@
     <Content Include="Views\Movies\Details.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Shared\_Navbar.cshtml" />
+    <Content Include="Views\Customers\CustomerForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -322,6 +349,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810180650469_AddMembershipType.resx">
       <DependentUpon>201810180650469_AddMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810180721575_PopulateMembershipTypes.resx">
+      <DependentUpon>201810180721575_PopulateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810180729426_ApplyAnnotationsToCustomerName.resx">
+      <DependentUpon>201810180729426_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810181021084_AddNameToMembershipType.resx">
+      <DependentUpon>201810181021084_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810181025135_AddBDtoCustomer.resx">
+      <DependentUpon>201810181025135_AddBDtoCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810181140014_AddMoviesToDbModel.resx">
+      <DependentUpon>201810181140014_AddMoviesToDbModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810181152393_AddGenreAndFieldsForMovie.resx">
+      <DependentUpon>201810181152393_AddGenreAndFieldsForMovie.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

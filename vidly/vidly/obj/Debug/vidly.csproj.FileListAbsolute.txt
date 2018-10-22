@@ -123,3 +123,9 @@ C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\obj\Debug\vidly.cs
 C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\obj\Debug\vidly.Migrations.InitialModel.resources
 C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\obj\Debug\vidly.Migrations.AddIsSubscribedToCustomer.resources
 C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\obj\Debug\vidly.Migrations.AddMembershipType.resources
+C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\obj\Debug\vidly.Migrations.PopulateMembershipTypes.resources
+C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\obj\Debug\vidly.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\obj\Debug\vidly.Migrations.AddNameToMembershipType.resources
+C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\obj\Debug\vidly.Migrations.AddBDtoCustomer.resources
+C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\obj\Debug\vidly.Migrations.AddMoviesToDbModel.resources
+C:\Users\anmol.vashistha\Documents\projects\vidly\vidly\vidly\obj\Debug\vidly.Migrations.AddGenreAndFieldsForMovie.resources
